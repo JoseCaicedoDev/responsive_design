@@ -199,7 +199,97 @@ main{
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
-  background: var(--bitcoin-orange);
+  padding: 7px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+.product__detail{
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  padding: 20px 10px;
+  background: var(--black);
+}
+.product__detail-logo{
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url('../icons/batata.svg');
+}
+.product__detail-title{
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.product__detail-title h2{
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.product__detail-title p{
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+.product__card-detail{
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--warm-black);
   border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product__card-detail .clock,
+.product__card-detail .eye,
+.product__card-detail .dollar,
+.product__card-detail .check{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product__card-detail .clock{
+  background-image: url('../icons/clock.svg');
+}
+.product__card-detail .eye{
+  background-image: url('../icons/eye.svg');
+}
+.product__card-detail .dollar{
+  background-image: url('../icons/dollar-sign.svg');
+}
+.product__card-detail .check{
+  background-image: url('../icons/check-circle.svg');
+}
 
+.card-title{
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.card-body{
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
